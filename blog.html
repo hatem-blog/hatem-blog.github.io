@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog Coming Soon</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', monospace;
+      background-color: #222222;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
+
+    .loader {
+      width: 220px;
+      height: 12px;
+      background-color: #444;
+      border-radius: 6px;
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+
+    .loader-bar {
+      width: 0;
+      height: 100%;
+      background-color: white;
+      animation: load 2s infinite;
+    }
+
+    @keyframes load {
+      0% { width: 0; }
+      50% { width: 100%; }
+      100% { width: 0; }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 10px;
+      color: #aaa;
+    }
+
+    a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>BLOG COMING SOON</h1>
+  <p>UNDER CONSTRUCTION</p>
+
+  <div class="loader">
+    <div class="loader-bar"></div>
+  </div>
+
+  <footer>
+    <p>Contact: <a href="mailto:hatembhh10@gmail.com">hatembhh10@gmail.com</a> | 
+    <a href="https://www.linkedin.com/in/hatem-ben-hadj-hassen-a12776245/" target="_blank">LinkedIn</a></p>
+  </footer>
+</body>
+</html>
